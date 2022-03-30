@@ -33,7 +33,7 @@ class Pantalla1 extends StatelessWidget {
             minimumSize: Size(150, 50),
           ),
           onPressed: () {
-            Navigator.pop(context, '/second');
+            Navigator.pushNamed(context, '/second');
           },
         ), //ElevatedButton
       ), //Body
