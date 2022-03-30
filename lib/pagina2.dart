@@ -11,7 +11,7 @@ class Pantalla2 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text('Second Screen'),
+        title: const Text('Registro de usuario'),
       ),
       body: ListView(children: [
         Container(
