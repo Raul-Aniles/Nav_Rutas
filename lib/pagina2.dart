@@ -72,14 +72,19 @@ class Pantalla2 extends StatelessWidget {
               ),
             )),
         ElevatedButton(
-          // Within the Pantalla2 widget
+          child: Text("Ir a los usuarios"),
+          style: ElevatedButton.styleFrom(
+            onPrimary: Colors.white,
+            primary: Colors.teal[700],
+            onSurface: Colors.grey,
+            side: BorderSide(color: Colors.black, width: 1),
+            elevation: 20,
+            minimumSize: Size(150, 50),
+          ),
           onPressed: () {
-            // Navigate back to the first screen by popping the current route
-            // off the stack.
-            Navigator.pop(context);
+            Navigator.pop(context, '/second');
           },
-          child: const Text('Go back!'),
-        ), //ElevatedButton
+        ),
       ]), //Body
     ); //Scaffold
   } //Widget
