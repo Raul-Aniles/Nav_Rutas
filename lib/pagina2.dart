@@ -82,7 +82,7 @@ class Pantalla2 extends StatelessWidget {
             minimumSize: Size(150, 50),
           ),
           onPressed: () {
-            Navigator.pop(context, '/second');
+            Navigator.pop(context);
           },
         ),
       ]), //Body
